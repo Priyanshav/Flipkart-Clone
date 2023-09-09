@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+:root {
+    --main-bg-color: #2874f0;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 65px;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    width: 130px;
+    height: 35px;
+}
+
+.logo{
+    background-image: url("../flipkart_plus_logo.png");
+    height: 35px;
+    width: 100%;
+    background-size: cover;
+}
+
+.search{
+    background-color: white;
+    color: black;
+    display: flex;
+    
+}
+
+.search input{
+    width: 500px;
+    border: none;
+    height: 40px;
+}
+
+.fa-solid.fa-magnifying-glass{
+    margin: 12px;
+}
+
+
+.hero-section{
+    background-image: url("../hero_image.webp");
+    height: 200px;
+    margin: 15px;
+    width: 97%;
+    background-size: cover;
+}
+
+.shop-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:rgb(228, 235, 235);
+    flex-wrap: wrap;
+    border-bottom: 8px solid rgb(183, 179, 179);
+}
+
+.box{
+    height: 212px;
+    width: 16.4%;
+    /* border: 1px solid grey; */
+    padding: 6px;
+    background-color: white;
+}
+
+.box-img{
+    height: 150px;
+    width: 145px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 25px;
+}
+
+.box-content{
+    text-align: center;
+    margin-top: 10px;
+    color: #212121;
+}
+
+.discount{
+    font-weight: 700;
+}
+
+footer{
+    height: 350px;
+    background-color: #212121;
+}
+
+.foot-panel1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 20px 0px;
+}
+
+ul{
+    margin-top: 10px;
+}
+
+.foot-panel1 ul p{
+    color: #878787;
+    margin-bottom: 10px;
+}
+
+.foot-panel1 ul a{
+    color: #ffffff;
+    display: block;
+    margin-top: 8px;
+}
+
+.foot-panel2{
+    display: flex;
+    justify-content: space-evenly;
+    border-left: 0.5px solid rgb(130, 130, 152);
+}
+
+.foot-options{
+    font-size: 0.8rem;
+    padding-left: 20px;
+}
+
+.foot-panel3{
+    background-color: #212121;
+    height: 70px;
+    border-top: 0.5px solid rgb(130, 130, 152);
+    margin-top: 30px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel3 i{
+    color: yellow;
+    margin-right: 6px;
+}
